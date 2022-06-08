@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../PythonWork/Fundamentals/.idea/Fundamentals.iml" filepath="$PROJECT_DIR$/../PythonWork/Fundamentals/.idea/Fundamentals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PythonProgramming.iml" filepath="$PROJECT_DIR$/.idea/PythonProgramming.iml" />
+    </modules>
+  </component>
+</project>
