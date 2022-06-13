@@ -12,10 +12,10 @@ file = open("combinations.txt", "w+")
 
 for element in new_list:
     counter += 1
-    print(f"{element}")
+    print(f"Combination {counter}: {element}")
     file.write(f"{element}\n")
 
-print(f"Count of elements: {counter}\n")
+print(f"Total combinations found: {counter}\n")
 
 while True:
     command = input("Type 'Quit' to exit program: ")
