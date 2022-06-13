@@ -20,3 +20,4 @@ sum_of_even_digits = even_sum(num)
 sum_of_odd_digits = odd_sum(num)
 
 print(f"Odd sum = {sum_of_odd_digits}, Even sum = {sum_of_even_digits}")
+
