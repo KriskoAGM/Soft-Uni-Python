@@ -8,16 +8,16 @@ numbers = input("Enter combination: ")
 permutations = list(itertools.permutations(numbers))
 
 new_list = ([''.join(permutation) for permutation in permutations])
-file = open("combinations.txt", "w+")
+file = open("elements.txt", "w+")
 
 for element in new_list:
     counter += 1
-    print(f"Combination {counter}: {element}")
+    print(f"Combination: {element}")
     file.write(f"{element}\n")
 
-print(f"Total combinations found: {counter}\n")
+print(f"Total elements written in text file: {counter}\n")
 
 while True:
-    command = input("Type 'Quit' to exit program: ")
-    if command == 'Quit'.lower():
-        break
+    command = input("Type 'Quit' to exit program: ").lower()
+    if command == 'quit':
+        exit()
