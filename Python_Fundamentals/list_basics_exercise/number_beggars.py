@@ -17,4 +17,17 @@ while True:
 print(final_list)
 
 
+# numbers = list(map(int, input().split(", ")))
+# beggars = int(input())
+# list_sum = []
+#
+# for index in range(beggars):
+#     collected = []
+#     for current_index in range(index, len(numbers), beggars):
+#         collected.append(numbers[current_index])
+#     list_sum.append(sum(collected))
+#
+# print(list_sum)
+
+
 
